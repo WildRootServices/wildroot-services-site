@@ -1,7 +1,56 @@
-echo "# wildroot-services-site" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/WildRootServices/wildroot-services-site.git
-git push -u origin main
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wildroot Services</title>
+  <style>
+    body { font-family: Arial; margin: 0; text-align: center; }
+    header { background: #1f3d2b; color: white; padding: 40px; }
+    section { padding: 40px; }
+    .services { display: flex; justify-content: center; gap: 20px; }
+    .box { border: 1px solid #ddd; padding: 20px; width: 250px; }
+    footer { background: #eee; padding: 20px; }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Wildroot Services</h1>
+  <p>Mulch, cleanup, and landscaping done right</p>
+</header>
+
+<section>
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="box">
+      <h3>Mulching</h3>
+      <p>Clean, fresh mulch to upgrade your yard instantly.</p>
+    </div>
+    <div class="box">
+      <h3>Yard Cleanup</h3>
+      <p>Leaves, sticks, and overgrowth removed fast.</p>
+    </div>
+    <div class="box">
+      <h3>Planting</h3>
+      <p>We source and install plants for you.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>About Us</h2>
+  <p>We’re a local landscaping team focused on hard work, fair pricing, and results you can see immediately.</p>
+</section>
+
+<section>
+  <h2>Get a Free Quote</h2>
+  <p>Call or text: (000) 000-0000</p>
+  <p>Indianapolis, IN</p>
+</section>
+
+<footer>
+  <p>© 2026 Wildroot Services</p>
+</footer>
+
+</body>
+</html>
